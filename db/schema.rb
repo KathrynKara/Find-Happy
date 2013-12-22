@@ -11,36 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131222180054) do
-
-  create_table "categories", force: true do |t|
-    t.string   "category"
-    t.integer  "tag_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "categories", ["tag_id"], name: "index_categories_on_tag_id"
-
-  create_table "comments", force: true do |t|
-    t.text     "comment"
-    t.integer  "user_id"
-    t.integer  "tag_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "comments", ["tag_id"], name: "index_comments_on_tag_id"
-  add_index "comments", ["user_id"], name: "index_comments_on_user_id"
-
-  create_table "tags", force: true do |t|
-    t.string   "title"
-    t.integer  "user_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "tags", ["user_id"], name: "index_tags_on_user_id"
+ActiveRecord::Schema.define(version: 20131219221701) do
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -55,8 +26,6 @@ ActiveRecord::Schema.define(version: 20131222180054) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "first_name"
-    t.string   "last_name"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
