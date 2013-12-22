@@ -1114,3 +1114,131 @@ Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-19 18:38:24 -0500
 
 
 Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-19 18:38:24 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddNamesToUsers (20131222204207)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mALTER TABLE "users" ADD "first_name" varchar(255)[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "last_name" varchar(255)
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20131222204207"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-22 15:44:33 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FinalController#index as HTML
+  Rendered final/index.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 187ms (Views: 148.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-22 15:44:33 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-22 15:44:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:33 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:33 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-22 15:44:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:33 -0500
+
+
+Started GET "/users/login" for 127.0.0.1 at 2013-12-22 15:44:38 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (146.3ms)
+Completed 200 OK in 246ms (Views: 156.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2013-12-22 15:44:46 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"idFZmtpiqSrJWLdI7Alq+s/3ibjqTtGU8qHRHK6rQO8=", "user"=>{"email"=>"kathryn.dasalla@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'kathryn.dasalla@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (26.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["last_sign_in_at", Thu, 19 Dec 2013 23:38:24 UTC +00:00], ["current_sign_in_at", Sun, 22 Dec 2013 20:44:47 UTC +00:00], ["sign_in_count", 4], ["updated_at", Sun, 22 Dec 2013 20:44:47 UTC +00:00]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 266ms (ActiveRecord: 28.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-22 15:44:47 -0500
+Processing by FinalController#index as HTML
+  Rendered final/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 97ms (Views: 95.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-22 15:44:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:47 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-22 15:44:47 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-22 15:44:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:47 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-22 15:44:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-22 15:45:57 -0500
+Processing by FinalController#index as HTML
+  Rendered final/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-22 15:45:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-22 15:45:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-22 15:45:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-22 15:45:57 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-22 15:45:57 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-22 15:45:57 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-22 15:45:57 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-22 15:45:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-22 15:45:57 -0500
