@@ -1,0 +1,10 @@
+<p><%= link_to "Home", root_path %> | <%= link_to "Add a new Happy Place", new_tag_path %></p>
+
+
+<h1>My Happy Places</h1>
+
+<% @tags.each do |tag| %>
+<h2><%= tag.title %></h2>
+<h2><%= tag.category_id %></h2>
+<h2><%= tag.comment %></h2>
+<% end %>

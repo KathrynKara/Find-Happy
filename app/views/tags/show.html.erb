@@ -1,0 +1,7 @@
+<%= link_to "Home", root_path %>
+<%= link_to "Add a new Happy Place", new_tag_path %>
+
+<h1><%= @tag.title %></h1>
+<p><%= @tag.category %></p>
+<p><%= @tag.comment %></p>
+<%= link_to "Edit", edit_tag_path(@tag) %>

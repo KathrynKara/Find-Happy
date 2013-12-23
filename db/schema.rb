@@ -11,7 +11,36 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131222204207) do
+ActiveRecord::Schema.define(version: 20131222214914) do
+
+  create_table "categories", force: true do |t|
+    t.string   "category"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "comments", force: true do |t|
+    t.text     "comment"
+    t.integer  "user_id"
+    t.integer  "tag_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "comments", ["tag_id"], name: "index_comments_on_tag_id"
+  add_index "comments", ["user_id"], name: "index_comments_on_user_id"
+
+  create_table "tags", force: true do |t|
+    t.string   "title"
+    t.integer  "user_id"
+    t.integer  "category_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "comment"
+  end
+
+  add_index "tags", ["category_id"], name: "index_tags_on_category_id"
+  add_index "tags", ["user_id"], name: "index_tags_on_user_id"
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false
