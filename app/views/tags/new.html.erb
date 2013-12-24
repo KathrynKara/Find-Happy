@@ -2,20 +2,11 @@
   <%= link_to "My Happy Places", tags_path %>
 </p>
 <h1>Add a Happy Place</h1>
-<%= form_for @tag do |f| %>
+<%= simple_form_for @tag do |f| %>
 
-<p>
-  <%= f.label :title %>
-  <%= f.text_field :title %>
-</p>
-<p>
-  <%= f.label :category %>
-  <%= f.text_field :category %>
-</p>
-<p>
-<%= f.label :comment %>
-<%= f.text_field :comment %>
-</p>
-<%= f.submit "Add" %>
+  <%= f.input :title, placeholder: 'Title' %>
+  <%= f.association :category, placeholder: 'Pick a category' %>
+  <%= f.input :comment, placeholder: 'Add a comment' %>
+  <%= f.submit "Add" %>
 
 <% end %>
