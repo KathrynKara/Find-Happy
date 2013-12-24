@@ -6,7 +6,7 @@ class TagsController < ApplicationController
   def new
     @tag = Tag.new
     @categories = Category.all
-    # comment form
+    # comment
   end
 
   def create
