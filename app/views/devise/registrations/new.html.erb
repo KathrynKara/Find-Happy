@@ -5,15 +5,9 @@
 
   <%= f.input :first_name, placeholder: 'First Name' %>
   <%= f.input :last_name, placeholder: 'Last Name' %>
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email, :autofocus => true %></div>
-
-  <div><%= f.label :password %><br />
-  <%= f.password_field :password %></div>
-
-  <div><%= f.label :password_confirmation %><br />
-  <%= f.password_field :password_confirmation %></div>
-
+  <%= f.input :email, placeholder: 'E-mail', :autofocus => true %>
+  <%= f.input :password, placeholder: 'Password' %>
+  <%= f.input :password_confirmation, placeholder: 'Confirm your password' %>
   <div><%= f.submit "Sign up" %></div>
 <% end %>
 
