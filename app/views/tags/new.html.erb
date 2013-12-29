@@ -4,9 +4,9 @@
 <h1>Add a Happy Place</h1>
 <%= simple_form_for @tag do |f| %>
 
-  <%= f.input :title, placeholder: 'Title' %>
-  <%= f.association :category, placeholder: 'Pick a category' %>
-  <%= f.input :comment, placeholder: 'Add a comment' %>
+  <%= f.input :title, placeholder: 'Title', label: false %>
+  <%= f.association :category, inline_label: 'Pick a category', label: false%>
+  <%= f.input :comment, placeholder: 'Add a comment', label: false %>
   <%= f.submit "Add" %>
 
 <% end %>

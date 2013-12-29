@@ -10339,3 +10339,461 @@ Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2013-12-28 13:25:56 -0500
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-28 13:25:56 -0500
+
+
+Started GET "/users/login" for 127.0.0.1 at 2013-12-28 19:12:37 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 64ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n/A5rl0nAVQdsZN7HPHpLS1a8t49Wj4YZsLN+zv7wHw=", "user"=>{"email"=>"kathryn.dasalla@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'kathryn.dasalla@gmail.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["last_sign_in_at", Sat, 28 Dec 2013 16:16:23 UTC +00:00], ["current_sign_in_at", Sun, 29 Dec 2013 00:12:49 UTC +00:00], ["sign_in_count", 8], ["updated_at", Sun, 29 Dec 2013 00:12:49 UTC +00:00]]
+  [1m[35m (12.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 158ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+Processing by FinalController#index as HTML
+  Rendered final/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 54ms (Views: 53.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2013-12-28 19:12:49 -0500
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-28 19:12:52 -0500
+Processing by TagsController#new as HTML
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered tags/new.html.erb within layouts/application (95.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 144ms (Views: 106.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+Processing by TagsController#new as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered tags/new.html.erb within layouts/application (12.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-28 19:14:11 -0500
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+Processing by TagsController#new as HTML
+  [1m[35mCategory Load (0.3ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered tags/new.html.erb within layouts/application (57.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 149ms (Views: 130.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-28 20:27:23 -0500
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+Processing by TagsController#new as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered tags/new.html.erb within layouts/application (9.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 47ms (Views: 43.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:28 -0500
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+Processing by TagsController#new as HTML
+  [1m[35mCategory Load (0.2ms)[0m  SELECT "categories".* FROM "categories"
+  Rendered tags/new.html.erb within layouts/application (9.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-28 20:28:58 -0500
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-28 20:29:04 -0500
+Processing by TagsController#index as HTML
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags"
+  Rendered tags/index.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-28 20:29:07 -0500
+Processing by FinalController#index as HTML
+  Rendered final/index.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 45ms (Views: 27.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/logout" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zSd9oL1XYTcoXPacFiEMa3DCvVQxZ541Nl6iH/e8wcQ="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 48ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+Processing by FinalController#index as HTML
+  Rendered final/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-28 20:29:10 -0500
+
+
+Started GET "/users/login" for 127.0.0.1 at 2013-12-28 20:29:13 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 67ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-12-28 20:29:16 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2013-12-28 20:30:31 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 30ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2013-12-28 20:30:38 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F+aqZgvamKPlMgnU6v6TUULX/v3Qzfi/0Kn03vIvuGI=", "user"=>{"email"=>"kathryn.dasalla@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'kathryn.dasalla@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (1.6ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (41.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["last_sign_in_at", Sun, 29 Dec 2013 00:12:49 UTC +00:00], ["current_sign_in_at", Sun, 29 Dec 2013 01:30:38 UTC +00:00], ["sign_in_count", 9], ["updated_at", Sun, 29 Dec 2013 01:30:38 UTC +00:00]]
+  [1m[36m (148.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 338ms (ActiveRecord: 191.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+Processing by FinalController#index as HTML
+  Rendered final/index.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 130ms (Views: 80.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-28 20:30:39 -0500
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-28 20:30:46 -0500
+Processing by TagsController#new as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1mSELECT "categories".* FROM "categories"[0m
+  Rendered tags/new.html.erb within layouts/application (8.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 61ms (Views: 58.7ms | ActiveRecord: 0.5ms)
