@@ -9,3 +9,11 @@
   <%= link_to "My Happy Places", tags_path %>
 </p>
 
+<h1>All Happy Places</h1>
+
+<% @tags.each do |tag| %>
+<h3><%= tag.title %></h3>
+<p><%= tag.category %></p>
+<p><%= tag.comment %></p>
+<% end %>
+
