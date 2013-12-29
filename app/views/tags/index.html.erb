@@ -4,7 +4,7 @@
 <h1>My Happy Places</h1>
 
 <% @tags.each do |tag| %>
-<h2><%= tag.title %></h2>
-<h2><%= tag.category %></h2>
-<h2><%= tag.comment %></h2>
+<h3><%= tag.title %></h3>
+<p><%= tag.category %></p>
+<p><%= tag.comment %></p>
 <% end %>

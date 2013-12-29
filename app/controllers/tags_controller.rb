@@ -1,20 +1,21 @@
 class TagsController < ApplicationController
   def index
-    @tags = Tag.all
+    @tags = current_user.tags
   end
 
   def new
     @tag = Tag.new
-    @categories = Category.all
+    # @categories = Category.all
     # comment
   end
 
   def create
-    @tag = Tag.create
+    safe_tag = params.require(:tag).permit(:title, :category, :comment)
+    @tag = current_user.tags.create safe_tag
     redirect_to @tag, notice: "Happy Place successfully added"
   end
 
   def show
-    @tags = Tag.find params[:id]
+    @tag = Tag.find params[:id]
   end
 end
