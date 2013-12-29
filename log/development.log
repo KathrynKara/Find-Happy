@@ -10797,3 +10797,118 @@ Processing by TagsController#new as HTML
   Rendered tags/new.html.erb within layouts/application (8.0ms)
   [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
 Completed 200 OK in 61ms (Views: 58.7ms | ActiveRecord: 0.5ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddCategoriesToTags (20131229153845)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (20.6ms)[0m  [1mALTER TABLE "tags" ADD "category" varchar(255)[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131229153845"]]
+  [1m[36m (13.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-29 10:43:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TagsController#new as HTML
+  Rendered tags/new.html.erb within layouts/application (92.1ms)
+Completed 500 Internal Server Error in 190ms
+
+ActionView::Template::Error (uninitialized constant Tag::CATEGORIES):
+     5: <%= simple_form_for @tag do |f| %>
+     6: 
+     7:   <%= f.input :title, placeholder: 'Title', label: false %>
+     8:   <%= f.collection_select :category, Tag::CATEGORIES, :to_s, :titleize %>
+     9:   <%= f.input :comment, placeholder: 'Add a comment', label: false %>
+    10:   <%= f.submit "Add" %>
+    11: 
+  app/views/tags/new.html.erb:8:in `block in _app_views_tags_new_html_erb___4381432732664861326_2173681080'
+  app/views/tags/new.html.erb:5:in `_app_views_tags_new_html_erb___4381432732664861326_2173681080'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (24.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (78.4ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-29 10:43:27 -0500
+Processing by TagsController#new as HTML
+  Rendered tags/new.html.erb within layouts/application (14.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 100ms (Views: 87.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/categories.css?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-29 10:43:28 -0500
+
+
+Started POST "/tags" for 127.0.0.1 at 2013-12-29 10:46:12 -0500
+Processing by TagsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u6o/cZ99MPoJt3IPqTeWjKbfgPgt0O69oQnoozsjaGM=", "tag"=>{"title"=>"Two Little Red Hens", "category"=>"Food", "comment"=>"Best cupcakes ever!  Brooklyn Blackouts and Coconut Creams"}, "commit"=>"Add"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (15.9ms)[0m  INSERT INTO "tags" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Sun, 29 Dec 2013 15:46:12 UTC +00:00], ["updated_at", Sun, 29 Dec 2013 15:46:12 UTC +00:00]]
+  [1m[36m (91.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tags/5
+Completed 302 Found in 307ms (ActiveRecord: 107.8ms)
+
+
+Started GET "/tags/5" for 127.0.0.1 at 2013-12-29 10:46:12 -0500
+Processing by TagsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mTag Load (0.3ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered tags/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 89ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <%= link_to "Home", root_path %>
+    2: <%= link_to "Add a new Happy Place", new_tag_path %>
+    3: 
+    4: <h1><%= @tag.title %></h1>
+    5: <p><%= @tag.category %></p>
+    6: <p><%= @tag.comment %></p>
+    7: <%= link_to "Edit", edit_tag_path(@tag) %>
+  app/views/tags/show.html.erb:4:in `_app_views_tags_show_html_erb__1251102560171989612_2194050120'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (42.7ms)

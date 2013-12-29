@@ -5,7 +5,7 @@
 <%= simple_form_for @tag do |f| %>
 
   <%= f.input :title, placeholder: 'Title', label: false %>
-  <%= f.association :category, inline_label: 'Pick a category', label: false%>
+  <%= f.collection_select :category, Tag::CATEGORIES, :to_s, :titleize %>
   <%= f.input :comment, placeholder: 'Add a comment', label: false %>
   <%= f.submit "Add" %>
 
