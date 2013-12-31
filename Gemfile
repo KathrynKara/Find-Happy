@@ -36,6 +36,8 @@ gem 'devise', '~> 3.2.2'
 
 gem "simple_form", "~> 3.0.1"
 
+gem "geocoder", "~> 1.1.9"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

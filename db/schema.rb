@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131229153845) do
+ActiveRecord::Schema.define(version: 20131231011728) do
 
   create_table "categories", force: true do |t|
     t.string   "category"
@@ -38,6 +38,9 @@ ActiveRecord::Schema.define(version: 20131229153845) do
     t.datetime "updated_at"
     t.text     "comment"
     t.string   "category"
+    t.string   "address"
+    t.float    "latitude"
+    t.float    "longitued"
   end
 
   add_index "tags", ["category_id"], name: "index_tags_on_category_id"

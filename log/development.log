@@ -14809,3 +14809,898 @@ ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associat
   Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
   Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
   Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.4ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-29 16:01:20 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-29 16:01:20 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.8ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-29 16:02:21 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 58ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.6ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-29 16:02:21 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.8ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-29 16:02:37 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 9ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.0ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-29 16:02:38 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.4ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-29 16:03:11 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 10ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.0ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-30 18:26:21 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[36mTag Load (19.7ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 87ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (146.1ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-30 18:26:21 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (82.2ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-30 18:27:11 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 12ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.8ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-30 18:27:11 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.9ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-30 18:27:16 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 12ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.5ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8%3E/edit" for 127.0.0.1 at 2013-12-30 18:27:16 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"}
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", "#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>"]]
+Completed 404 Not Found in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Associations::CollectionProxy::ActiveRecord_Associations_CollectionProxy_Tag:0x000001033531b8>):
+  app/controllers/tags_controller.rb:23:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (19.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-30 18:27:37 -0500
+Processing by FinalController#index as HTML
+  [1m[36mTag Load (0.3ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  Rendered final/index.html.erb within layouts/application (62.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 225ms (Views: 222.5ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/users/logout" for 127.0.0.1 at 2013-12-30 18:33:51 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Q5cNWwLwti5/Ff4gGBj4dVyzFQQWnoATSc2DwfvUigI="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (8.3ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 124ms (ActiveRecord: 8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-30 18:33:51 -0500
+Processing by FinalController#index as HTML
+  [1m[35mTag Load (0.3ms)[0m  SELECT "tags".* FROM "tags"
+  Rendered final/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-30 18:33:52 -0500
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:34:42 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.6ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:34:42 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:35:51 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:35:54 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:35:54 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.3ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-30 18:36:09 -0500
+Processing by TagsController#new as HTML
+  Rendered tags/new.html.erb within layouts/application (66.3ms)
+Completed 200 OK in 115ms (Views: 89.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:36:12 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (49.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (69.6ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:36:12 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.3ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:36:24 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.7ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.7ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:36:24 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.1ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:37:16 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (20.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.9ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:37:16 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 11ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (11.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (42.7ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:38:58 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 53ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (44.4ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 18:38:58 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.8ms)
+  [1m[36mTag Load (291.8ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  [1m[35m (0.2ms)[0m  SELECT "tags"."user_id" FROM "tags"
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-30 18:40:55 -0500
+Processing by TagsController#new as HTML
+  Rendered tags/new.html.erb within layouts/application (281.4ms)
+Completed 200 OK in 572ms (Views: 547.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:00:37 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.7ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:00:37 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.5ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:00:57 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.5ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:01:06 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.1ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:01:06 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:01:21 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:01:29 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (49.1ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (71.1ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:01:34 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.9ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:01:34 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:01:50 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.7ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:02:18 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.3ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:03:01 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:03:01 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:05:35 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.7ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:05:35 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:05:49 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.1ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:07:14 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `Tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.3ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:07:17 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `Tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (69.2ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:07:32 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `Tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.3ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:07:38 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `Tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.4ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:07:48 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.2ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 19:07:54 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.4ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 20:04:02 -0500
+Processing by TagsController#index as HTML
+  [1m[35mTag Load (0.6ms)[0m  SELECT "tags".* FROM "tags"
+  Rendered tags/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 52ms (Views: 44.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 20:04:51 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 8ms
+
+NoMethodError (undefined method `current_user' for #<Class:0x000001016fc0c8>):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.3ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 20:04:51 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `current_user' for #<Class:0x000001016fc0c8>):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.0ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 20:05:17 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.8ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 20:05:18 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `tag' for nil:NilClass):
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.7ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 20:05:45 -0500
+Processing by TagsController#index as HTML
+  [1m[36mTag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  Rendered tags/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 31ms (Views: 23.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Relation::ActiveRecord_Relation_Tag:0x00000103bef6a0%3E/edit" for 127.0.0.1 at 2013-12-30 20:05:53 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Relation::ActiveRecord_Relation_Tag:0x00000103bef6a0>"}
+  [1m[35mTag Load (0.4ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1  [["id", "#<ActiveRecord::Relation::ActiveRecord_Relation_Tag:0x00000103bef6a0>"]]
+Completed 404 Not Found in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Relation::ActiveRecord_Relation_Tag:0x00000103bef6a0>):
+  app/controllers/tags_controller.rb:24:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.3ms)
+
+
+Started GET "/tags/%23%3CActiveRecord::Relation::ActiveRecord_Relation_Tag:0x00000103bef6a0%3E/edit" for 127.0.0.1 at 2013-12-30 20:05:53 -0500
+Processing by TagsController#edit as HTML
+  Parameters: {"id"=>"#<ActiveRecord::Relation::ActiveRecord_Relation_Tag:0x00000103bef6a0>"}
+  [1m[36mTag Load (0.3ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."id" = ? LIMIT 1[0m  [["id", "#<ActiveRecord::Relation::ActiveRecord_Relation_Tag:0x00000103bef6a0>"]]
+Completed 404 Not Found in 5ms
+
+ActiveRecord::RecordNotFound (Couldn't find Tag with id=#<ActiveRecord::Relation::ActiveRecord_Relation_Tag:0x00000103bef6a0>):
+  app/controllers/tags_controller.rb:24:in `edit'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-30 20:10:19 -0500
+Processing by FinalController#index as HTML
+  [1m[35mTag Load (0.3ms)[0m  SELECT "tags".* FROM "tags"
+  Rendered final/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddLocationToTags (20131231011728)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mALTER TABLE "tags" ADD "address" varchar(255)[0m
+  [1m[35m (0.2ms)[0m  ALTER TABLE "tags" ADD "latitude" float
+  [1m[36m (0.2ms)[0m  [1mALTER TABLE "tags" ADD "longitued" float[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131231011728"]]
+  [1m[36m (10.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
