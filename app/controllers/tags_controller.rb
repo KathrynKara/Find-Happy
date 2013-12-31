@@ -1,7 +1,7 @@
 class TagsController < ApplicationController
   def index
-    @tags = Tag.all
-    # @tags = current_user.tag
+    # @tags = Tag.all
+    @tags = current_user.tags
   end
 
   def new

@@ -6,6 +6,6 @@ class Tag < ActiveRecord::Base
   CATEGORIES = %w[Food Drink Sight Store]
 
   # attr_accessible :address, :latitued, :longitude
-  geocoded_by :full_street_address
-  after_validation :geocode, :if => :address_changed?
+  # geocoded_by :full_street_address
+  # after_validation :geocode, :if => :address_changed?
 end
