@@ -15704,3 +15704,150 @@ Migrating to AddLocationToTags (20131231011728)
   [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131231011728"]]
   [1m[36m (10.1ms)[0m  [1mcommit transaction[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-30 20:39:52 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TagsController#new as HTML
+Completed 500 Internal Server Error in 7ms
+
+RuntimeError (`attr_accessible` is extracted out of Rails into a gem. Please use new recommended protection model for params(strong_parameters) or add `protected_attributes` to your Gemfile to use old one.):
+  app/models/tag.rb:8:in `<class:Tag>'
+  app/models/tag.rb:1:in `<top (required)>'
+  app/controllers/tags_controller.rb:8:in `new'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.9ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-30 20:39:52 -0500
+Processing by TagsController#new as HTML
+Completed 500 Internal Server Error in 8ms
+
+RuntimeError (`attr_accessible` is extracted out of Rails into a gem. Please use new recommended protection model for params(strong_parameters) or add `protected_attributes` to your Gemfile to use old one.):
+  app/models/tag.rb:8:in `<class:Tag>'
+  app/models/tag.rb:1:in `<top (required)>'
+  app/controllers/tags_controller.rb:8:in `new'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.9ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-30 20:40:22 -0500
+Processing by TagsController#new as HTML
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `geocoded_by' for #<Class:0x0000010170b7d0>):
+  app/models/tag.rb:9:in `<class:Tag>'
+  app/models/tag.rb:1:in `<top (required)>'
+  app/controllers/tags_controller.rb:8:in `new'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.8ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-30 20:46:08 -0500
+Processing by TagsController#new as HTML
+Completed 500 Internal Server Error in 8ms
+
+NoMethodError (undefined method `geocoded_by' for #<Class:0x00000103c34de0>):
+  app/models/tag.rb:9:in `<class:Tag>'
+  app/models/tag.rb:1:in `<top (required)>'
+  app/controllers/tags_controller.rb:8:in `new'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (48.7ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (94.1ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-30 20:46:08 -0500
+Processing by TagsController#new as HTML
+Completed 500 Internal Server Error in 8ms
+
+NoMethodError (undefined method `geocoded_by' for #<Class:0x00000100cf4a30>):
+  app/models/tag.rb:9:in `<class:Tag>'
+  app/models/tag.rb:1:in `<top (required)>'
+  app/controllers/tags_controller.rb:8:in `new'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.8ms)
+  [1m[36mTag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE (latitude IS NULL OR longitude IS NULL)[0m
+SQLite3::SQLException: no such column: longitude: SELECT "tags".* FROM "tags"  WHERE (latitude IS NULL OR longitude IS NULL)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 20:57:51 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `geocoded_by' for #<Class:0x00000103983dd0>):
+  app/models/tag.rb:9:in `<class:Tag>'
+  app/models/tag.rb:1:in `<top (required)>'
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.3ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2013-12-30 20:57:51 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `geocoded_by' for #<Class:0x000001016ec088>):
+  app/models/tag.rb:9:in `<class:Tag>'
+  app/models/tag.rb:1:in `<top (required)>'
+  app/controllers/tags_controller.rb:3:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.4ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-30 20:57:54 -0500
+Processing by TagsController#new as HTML
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `geocoded_by' for #<Class:0x00000105803440>):
+  app/models/tag.rb:9:in `<class:Tag>'
+  app/models/tag.rb:1:in `<top (required)>'
+  app/controllers/tags_controller.rb:8:in `new'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.7ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2013-12-30 20:57:54 -0500
+Processing by TagsController#new as HTML
+Completed 500 Internal Server Error in 8ms
+
+NoMethodError (undefined method `geocoded_by' for #<Class:0x00000103afb9b0>):
+  app/models/tag.rb:9:in `<class:Tag>'
+  app/models/tag.rb:1:in `<top (required)>'
+  app/controllers/tags_controller.rb:8:in `new'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.5ms)

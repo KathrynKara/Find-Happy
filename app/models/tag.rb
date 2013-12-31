@@ -4,4 +4,8 @@ class Tag < ActiveRecord::Base
   has_many :users
 
   CATEGORIES = %w[Food Drink Sight Store]
+
+  # attr_accessible :address, :latitued, :longitude
+  geocoded_by :full_street_address
+  after_validation :geocode, :if => :address_changed?
 end
