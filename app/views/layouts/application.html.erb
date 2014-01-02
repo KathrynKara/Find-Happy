@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>FinalApp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -9,7 +10,7 @@
 <body>
 
 <% if user_signed_in? %>
-Welcome, <%= current_user.first_name %>! <%= link_to "Logout", destroy_user_session_path, method: :delete %>
+Welcome, <%= current_user.first_name %>! <%= link_to "( Logout )", destroy_user_session_path, method: :delete %>
   <% else %>
   <%= link_to "Login", new_user_session_path %> | <%=link_to "Sign up", new_user_registration_path %>
 <% end %>
@@ -22,7 +23,21 @@ Welcome, <%= current_user.first_name %>! <%= link_to "Logout", destroy_user_sess
 <p class="alert"><%= alert %></p>
 <% end %>
 
-<%= yield %>
+<div class="container">
+  <header class="row">
+    <nav class="navbar navbar-pills">
+      <div class="navbar-header">
+        <%= link_to "FIND HAPPY", root_path, class: 'navbar-brand' %>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><%= link_to "All Happy Places", final_index_path %></li>
+        <li><%= link_to "My Happy Places", tags_path %></li>
+        <li><%= link_to "Add a new Happy Place", new_tag_path %></li>
+      </ul>
+    </nav>
+  </header>
+  <%= yield %>
+</div>
 
 </body>
 </html>
