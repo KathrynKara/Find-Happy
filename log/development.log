@@ -17832,3 +17832,3102 @@ Processing by FinalController#index as HTML
   [1m[35mTag Load (0.3ms)[0m  SELECT "tags".* FROM "tags"
   Rendered final/index.html.erb within layouts/application (2.0ms)
 Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/final/index" for 127.0.0.1 at 2014-01-02 18:38:51 -0500
+Processing by FinalController#index as HTML
+  [1m[36mTag Load (0.6ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  Rendered final/index.html.erb within layouts/application (41.5ms)
+Completed 200 OK in 861ms (Views: 817.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 18:38:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:39:03 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:39:29 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 18:39:29 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 18:39:29 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 18:39:29 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 18:39:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:29 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 18:39:29 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:29 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:29 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 18:39:30 -0500
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-01-02 18:39:32 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (3.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 55ms (Views: 32.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-02 18:39:35 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/final/index" for 127.0.0.1 at 2014-01-02 18:39:36 -0500
+Processing by FinalController#index as HTML
+  [1m[35mTag Load (0.3ms)[0m  SELECT "tags".* FROM "tags"
+  Rendered final/index.html.erb within layouts/application (65.2ms)
+Completed 200 OK in 102ms (Views: 82.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2014-01-02 18:39:42 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:4:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.8ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2014-01-02 18:39:42 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:4:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.3ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2014-01-02 18:40:32 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:4:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.3ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2014-01-02 18:40:33 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:4:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2014-01-02 18:41:02 -0500
+Processing by TagsController#new as HTML
+  Rendered tags/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:41:09 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2014-01-02 18:41:30 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:4:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2014-01-02 18:41:30 -0500
+Processing by TagsController#index as HTML
+Completed 500 Internal Server Error in 17ms
+
+NoMethodError (undefined method `tags' for nil:NilClass):
+  app/controllers/tags_controller.rb:4:in `index'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.3ms)
+
+
+Started GET "/final/index" for 127.0.0.1 at 2014-01-02 18:42:07 -0500
+Processing by FinalController#index as HTML
+  [1m[36mTag Load (0.3ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  Rendered final/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/login" for 127.0.0.1 at 2014-01-02 18:42:10 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/login" for 127.0.0.1 at 2014-01-02 18:42:17 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N36cjC4diJ3o1GFftFyrjcNJs+kfa0+g6M7YBlHF4yA=", "user"=>{"email"=>"kathryn.dasalla@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'kathryn.dasalla@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (19.7ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1  [["last_sign_in_at", Tue, 31 Dec 2013 21:11:49 UTC +00:00], ["current_sign_in_at", Thu, 02 Jan 2014 23:42:18 UTC +00:00], ["sign_in_count", 13], ["updated_at", Thu, 02 Jan 2014 23:42:18 UTC +00:00]]
+  [1m[36m (41.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 321ms (ActiveRecord: 61.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 18:42:18 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 18:43:49 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (2.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:20 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 18:44:58 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:45:47 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 18:45:47 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 18:45:47 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 18:45:47 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 18:45:47 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 18:45:47 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 18:45:48 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:39 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 18:47:40 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:48:11 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 18:48:12 -0500
+
+
+Started GET "/final/index" for 127.0.0.1 at 2014-01-02 18:48:17 -0500
+Processing by FinalController#index as HTML
+  [1m[36mTag Load (0.3ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  Rendered final/index.html.erb within layouts/application (2.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:48:21 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/final/index" for 127.0.0.1 at 2014-01-02 18:48:23 -0500
+Processing by FinalController#index as HTML
+  [1m[35mTag Load (0.3ms)[0m  SELECT "tags".* FROM "tags"
+  Rendered final/index.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2014-01-02 18:48:28 -0500
+Processing by TagsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mTag Load (0.3ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered tags/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 25ms (Views: 19.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2014-01-02 18:48:36 -0500
+Processing by TagsController#new as HTML
+  Rendered tags/new.html.erb within layouts/application (4.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 76ms (Views: 75.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2014-01-02 18:48:39 -0500
+Processing by TagsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mTag Load (0.2ms)[0m  SELECT "tags".* FROM "tags" WHERE "tags"."user_id" = ?  [["user_id", 1]]
+  Rendered tags/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2014-01-02 18:48:43 -0500
+Processing by TagsController#new as HTML
+  Rendered tags/new.html.erb within layouts/application (4.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 18:48:46 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/final/index" for 127.0.0.1 at 2014-01-02 18:48:47 -0500
+Processing by FinalController#index as HTML
+  [1m[36mTag Load (0.3ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  Rendered final/index.html.erb within layouts/application (2.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2014-01-02 18:48:49 -0500
+Processing by TagsController#new as HTML
+  Rendered tags/new.html.erb within layouts/application (4.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2014-01-02 18:48:51 -0500
+Processing by TagsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered tags/index.html.erb within layouts/application (70.3ms)
+Completed 200 OK in 91ms (Views: 86.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/final/index" for 127.0.0.1 at 2014-01-02 18:48:54 -0500
+Processing by FinalController#index as HTML
+  [1m[35mTag Load (0.3ms)[0m  SELECT "tags".* FROM "tags"
+  Rendered final/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 19:09:26 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 19:13:21 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 19:14:44 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 19:26:13 -0500
+
+
+Started GET "/final/index" for 127.0.0.1 at 2014-01-02 20:21:23 -0500
+Processing by FinalController#index as HTML
+  [1m[35mTag Load (18.6ms)[0m  SELECT "tags".* FROM "tags"
+  Rendered final/index.html.erb within layouts/application (21.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 161ms (Views: 110.0ms | ActiveRecord: 18.9ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2014-01-02 20:21:37 -0500
+Processing by TagsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mTag Load (0.3ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered tags/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 659ms (Views: 656.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2014-01-02 20:21:40 -0500
+Processing by TagsController#new as HTML
+  Rendered tags/new.html.erb within layouts/application (4.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 46ms (Views: 44.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:26:09 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:26:40 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 20:26:40 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 20:26:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 20:26:40 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 20:26:40 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 20:26:40 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 20:26:40 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 20:26:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:40 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:40 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 20:26:41 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:06 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:38 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 20:28:39 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:15 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:29:30 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 77ms (Views: 75.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:30 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:30 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:30 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:30 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:30 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:30 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:31 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:29:39 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 27ms (Views: 25.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:39 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:39 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:39 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:39 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:39 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 20:29:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:39 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:39 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 20:29:40 -0500
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2014-01-02 20:31:36 -0500
+Processing by TagsController#new as HTML
+  Rendered tags/new.html.erb within layouts/application (4.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 27ms (Views: 24.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:33:09 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:41:10 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 20:41:10 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 20:41:10 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 20:41:10 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 20:41:10 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 20:41:11 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 20:53:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 111ms (Views: 109.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:48 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:49 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:49 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:49 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:49 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:49 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:49 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:49 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:49 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 20:55:49 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 20:56:32 -0500
+
+
+Started GET "/final/index" for 127.0.0.1 at 2014-01-02 20:59:20 -0500
+Processing by FinalController#index as HTML
+  [1m[35mTag Load (0.3ms)[0m  SELECT "tags".* FROM "tags"
+  Rendered final/index.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tags" for 127.0.0.1 at 2014-01-02 20:59:23 -0500
+Processing by TagsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mTag Load (0.2ms)[0m  [1mSELECT "tags".* FROM "tags" WHERE "tags"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered tags/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 60ms (Views: 57.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tags/new" for 127.0.0.1 at 2014-01-02 20:59:24 -0500
+Processing by TagsController#new as HTML
+  Rendered tags/new.html.erb within layouts/application (4.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/final/index" for 127.0.0.1 at 2014-01-02 20:59:27 -0500
+Processing by FinalController#index as HTML
+  [1m[36mTag Load (0.3ms)[0m  [1mSELECT "tags".* FROM "tags"[0m
+  Rendered final/index.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 20:59:31 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 38ms (Views: 19.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:57 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:58 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:58 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 21:17:58 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:28 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:29 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:29 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:29 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:29 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:29 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:29 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:29 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:29 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 21:18:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:03 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:04 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 21:19:04 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 21:21:57 -0500
+Processing by AboutController#index as HTML
+ERROR: compiling _app_views_about_index_html_erb__4125055591747143994_2175234340 RAISED /Users/Kathryn/code/Find-Happy/app/views/about/index.html.erb:14: syntax error, unexpected ')', expecting =>
+...s from 2 Little Red Hens, UES") );@output_buffer.safe_append...
+...                               ^
+/Users/Kathryn/code/Find-Happy/app/views/about/index.html.erb:68: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/Kathryn/code/Find-Happy/app/views/about/index.html.erb:70: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_about_index_html_erb__4125055591747143994_2175234340(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "about/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<div class="page-header">
+  <h1>Find Your Happy Place! <br><small>Bookmark your favorite places</small></h1>
+</div> <!-- end page header div -->
+
+<div class="about">
+<h3>
+  We all have those go-to places that we visit on a regular basis.  But this world is too huge, and life’s too short to be going to the same places over and over again.  So tag your favorite places to share your happiness with the world while exploring the neighborhood to see what’s making others happy, too!   
+
+Find Your Happy Place lets you bookmark your favorite places:
+</h3>
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+      ';@output_buffer.append=( imgage_tag('red_hens.jpg', class: 'img-responsive', alt="cupcakes from 2 Little Red Hens, UES") );@output_buffer.safe_append='
+      <div class="caption">
+        <h3>Food</h3>
+        <p>Tag your favorite places to chow down (restaurants, bakeries)</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x200" alt="...">
+      <div class="caption">
+        <h3>Drink</h3>
+        <p>Tag your favorite watering holes (bars, cafes)</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+      <img data-src="gantry_park.jpg" alt="view from Gantry Park, LIC">
+      <div class="caption">
+        <h3>Sights</h3>
+        <p>Tag your favorite places with awesome sights (views of skylines, sunrises/sunsets)</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <div class="thumbnail">
+      <img data-src="holder.js/300x200" alt="...">
+      <div class="caption">
+        <h3>Stores</h3>
+        <p>Tag your favorite places to shop til you drop (stores that carry that rare item you’re always looking for)</p>
+      </div>
+    </div>    
+  </div>
+</div>
+<!-- <ul>
+<li>
+  places to eat (restaurants, bakeries)
+</li>
+<li>
+  places to drink (bars, cafes)
+</li>
+<li>
+  places with awesome sights (views of skylines, sunrises/sunsets)
+</li>
+<li>
+  places to shop (stores that carry that rare item you’re always looking for)
+</li>
+</ul>
+ -->
+<h3>
+  You can use the map to search for other Happy Places tagged by other users to explore your own neighborhood or when you’re visiting a new one. 
+</h3>
+</div> <!-- end about div -->';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `module_eval'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `compile'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:248:in `block in compile!'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `synchronize'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `compile!'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:142:in `block in render'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/Users/Kathryn/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:403:in `_run__3033881858150085583__process_action__callbacks'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal.rb:195:in `dispatch'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_controller/metal.rb:231:in `block in action'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `each'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__1944624606592934490__call__callbacks'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/Users/Kathryn/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/Users/Kathryn/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/Users/Kathryn/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered about/index.html.erb within layouts/application (61.1ms)
+Completed 500 Internal Server Error in 78ms
+
+ActionView::Template::Error (/Users/Kathryn/code/Find-Happy/app/views/about/index.html.erb:14: syntax error, unexpected ')', expecting =>
+...s from 2 Little Red Hens, UES") );@output_buffer.safe_append...
+...                               ^
+/Users/Kathryn/code/Find-Happy/app/views/about/index.html.erb:68: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/Kathryn/code/Find-Happy/app/views/about/index.html.erb:70: syntax error, unexpected keyword_end, expecting ')'):
+    11: <div class="row">
+    12:   <div class="col-xs-6 col-md-3">
+    13:     <div class="thumbnail">
+    14:       <%= imgage_tag('red_hens.jpg', class: 'img-responsive', alt="cupcakes from 2 Little Red Hens, UES") %>
+    15:       <div class="caption">
+    16:         <h3>Food</h3>
+    17:         <p>Tag your favorite places to chow down (restaurants, bakeries)</p>
+  actionpack (4.0.1) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.1) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.1) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.1) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.1) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.1) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.1) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.1) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/Kathryn/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:403:in `_run__3033881858150085583__process_action__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__1944624606592934490__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Kathryn/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Kathryn/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Kathryn/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (33.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 21:22:27 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (190.3ms)
+Completed 500 Internal Server Error in 194ms
+
+ActionView::Template::Error (undefined method `imgage_tag' for #<#<Class:0x000001061daba8>:0x000001030c2f98>):
+    11: <div class="row">
+    12:   <div class="col-xs-6 col-md-3">
+    13:     <div class="thumbnail">
+    14:       <%= imgage_tag('red_hens.jpg', class: 'img-responsive') %>
+    15:       <div class="caption">
+    16:         <h3>Food</h3>
+    17:         <p>Tag your favorite places to chow down (restaurants, bakeries)</p>
+  app/views/about/index.html.erb:14:in `_app_views_about_index_html_erb__4125055591747143994_2173045760'
+
+
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/Kathryn/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-02 21:23:06 -0500
+Processing by AboutController#index as HTML
+  Rendered about/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 159ms (Views: 156.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/about.css?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/final.css?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/index.css?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/about.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/final.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/index.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-02 21:23:07 -0500
