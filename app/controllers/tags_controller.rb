@@ -1,4 +1,6 @@
 class TagsController < ApplicationController
+  before_action :authenticate_user!, only: [:new]
+  
   def index
     # @tags = Tag.all
     @tags = current_user.tags
@@ -6,14 +8,16 @@ class TagsController < ApplicationController
 
   def new
     @tag = Tag.new
-    # @categories = Category.all
     # comment
   end
 
   def create
-    safe_tag = params.require(:tag).permit(:title, :category, :comment)
     @tag = current_user.tags.create safe_tag
-    redirect_to @tag, notice: "Happy Place successfully added"
+    if @tag.save
+      redirect_to @tag, notice: "Happy Place successfully added"
+    else
+      render 'new'
+    end
   end
 
   def show
@@ -25,8 +29,14 @@ class TagsController < ApplicationController
   end
 
   def update
-    safe_tag = params.require(:tag).permit(:title, :category, :comment)
     @tag = current_user.tags.update safe_tag
     redirect_to @tag, notice: "Happy Place successfully updated"
   end
+
+  private
+
+  def safe_tag
+    params.require(:tag).permit(:title, :category, :comment)
+  end
+
 end

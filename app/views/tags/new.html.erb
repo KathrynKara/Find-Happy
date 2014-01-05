@@ -1,7 +1,7 @@
-<p>
-  <%= link_to "My Happy Places", tags_path %>
-</p>
-<h1>Add a Happy Place</h1>
+<div class="page-header">
+  <h1>Add a Happy Place</h1>
+</div> <!-- end page header div -->
+
 <%= simple_form_for @tag do |f| %>
 
   <%= f.input :title, placeholder: 'Title', label: false %>

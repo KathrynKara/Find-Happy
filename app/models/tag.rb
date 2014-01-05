@@ -3,6 +3,8 @@ class Tag < ActiveRecord::Base
   has_many :comments, through: :users
   has_many :users
 
+  validates :title, :category, :comment, presence: true
+
   CATEGORIES = %w[Food Drink Sight Store]
 
   # attr_accessible :address, :latitued, :longitude
