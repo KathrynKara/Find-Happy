@@ -1,4 +1,5 @@
 FinalApp::Application.routes.draw do
+  get "search/index"
   resources :comments
 
   resources :tags

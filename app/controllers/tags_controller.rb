@@ -1,6 +1,7 @@
 class TagsController < ApplicationController
-  before_action :authenticate_user!, only: [:new]
-  
+  before_action :authenticate_user!, only: [:index, :new, :create, :edit]
+  before_action :set_tag, only: [:show, :edit, :update]
+
   def index
     # @tags = Tag.all
     @tags = current_user.tags
@@ -21,19 +22,21 @@ class TagsController < ApplicationController
   end
 
   def show
-    @tag = Tag.find params[:id]
   end
 
   def edit
-    @tag = Tag.find params[:id]
   end
 
   def update
-    @tag = current_user.tags.update safe_tag
+    @tag.update_attributes safe_tag
     redirect_to @tag, notice: "Happy Place successfully updated"
   end
 
   private
+
+  def set_tag
+    @tag = Tag.find params[:id]
+  end
 
   def safe_tag
     params.require(:tag).permit(:title, :category, :comment)
