@@ -1,6 +1,6 @@
 class TagsController < ApplicationController
   before_action :authenticate_user!, only: [:index, :new, :create, :edit]
-  before_action :set_tag, only: [:show, :edit, :update]
+  before_action :set_tag, only: [:show, :edit, :update, :delete]
 
   def index
     # @tags = Tag.all
@@ -30,6 +30,9 @@ class TagsController < ApplicationController
   def update
     @tag.update_attributes safe_tag
     redirect_to @tag, notice: "Happy Place successfully updated"
+  end
+
+  def delete
   end
 
   private
