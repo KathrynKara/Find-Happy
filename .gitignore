@@ -1,0 +1,26 @@
+# Ignore bundler config
+/.bundle
+vendor/bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+/spec/tmp
+
+# Ignore files created by testing and CI tools
+.rspec
+coverage*
+spec/reports/*.xml
+features/reports/*.xml
+
+# Ignore files that contain sensitive information
+
+# Ignore files controlled by ga-config project
+config/*.yml
+config/student_projects/*.yml
+
+# Ignore locally-uploaded files
+tmp/uploads
+tmp/development/uploads
+.DS_Store
+db/*.sqlite3

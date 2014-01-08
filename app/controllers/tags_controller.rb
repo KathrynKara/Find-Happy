@@ -35,6 +35,8 @@ class TagsController < ApplicationController
   def delete
   end
 
+
+
   private
 
   def set_tag
