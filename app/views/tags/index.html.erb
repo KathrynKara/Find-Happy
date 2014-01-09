@@ -6,7 +6,8 @@
   <h3><%= tag.title %></h3>
   <p><%= tag.category %></p>
   <p><%= tag.comment %></p>
-  <%= link_to "Edit  |  ", edit_tag_path(tag) %>
-  <%= link_to "Delete", @tag, :confirm => "Are you sure you want to delete this item?", method: :delete %>
+  <%= link_to "Edit", edit_tag_path(tag) %>
+    |  
+  <%= link_to "Delete", tag_path(tag), :confirm => "Are you sure you want to delete this item?", method: :delete %>
 <% end %>
 

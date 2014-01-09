@@ -1,5 +1,12 @@
+<h1>Results containing "<%= params[:q] %>":</h1>
+
 <% @tags.each do |tag| %>
-<h1><%= tag.title %></h1>
-<p><%= tag.category %></p>
-<p><%= tag.comment %></p>
+  <h3><%= tag.title %></h3>
+  <h5><%= tag.category %></h5>
+  <h5><%= tag.comment %></h5>
+  <h5><%= tag.address %></h5>
+  <h5><%= tag.latitude %></h5>
+  <h5><%= tag.latitude %></h5>
 <% end %>
+
+<%= debug @tags %>

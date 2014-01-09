@@ -3,7 +3,7 @@ class Tag < ActiveRecord::Base
   has_many :comments, through: :users
   has_many :users
 
-  validates :title, :category, :comment, :address, presence: true
+  validates :title, :category, :comment, presence: true
 
   CATEGORIES = %w[Food Drink Sight Store]
 

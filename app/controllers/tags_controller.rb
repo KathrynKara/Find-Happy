@@ -32,7 +32,10 @@ class TagsController < ApplicationController
     redirect_to @tag, notice: "Happy Place successfully updated"
   end
 
-  def delete
+  def destroy
+    Tag.destroy(params[:id])
+    flash[:notice]= "Successfully deleted Happy Place"
+    redirect_to tags_path
   end
 
 
