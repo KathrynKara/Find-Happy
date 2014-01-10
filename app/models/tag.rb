@@ -5,7 +5,7 @@ class Tag < ActiveRecord::Base
 
   validates :title, :category, :comment, presence: true
 
-  CATEGORIES = %w[Food Drink Sight Store]
+  CATEGORIES = %w[Food Drink Sight Sftore]
 
   # geocoded_by :title
   # after_validation :geocode, :if => :address_changed?
@@ -13,7 +13,7 @@ class Tag < ActiveRecord::Base
   # attr_accessible :address, :latitude, :longitude
   geocoded_by :location
   def location
-    [:title, :address].join("")
+    "#{title}, #{address}"
   end
   after_validation :geocode, :if => :address_changed?
 end
