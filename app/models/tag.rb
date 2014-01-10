@@ -5,7 +5,7 @@ class Tag < ActiveRecord::Base
 
   validates :title, :category, :comment, presence: true
 
-  CATEGORIES = %w[Food Drink Sight Sftore]
+  CATEGORIES = %w[Food Drink Sight Store]
 
   # geocoded_by :title
   # after_validation :geocode, :if => :address_changed?

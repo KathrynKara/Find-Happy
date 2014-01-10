@@ -1,10 +1,10 @@
 <div class="page-header">
   <h1>All Happy Places</h1>
   <%= form_tag '/search/index', method: :get do%>
-  <%= label_tag 'q', "Search" %>
-  <%= text_field_tag 'q' %>
-  <%= submit_tag 'Submit' %>
-<% end %>
+    <%= label_tag 'q', "Search" %>
+    <%= text_field_tag 'q' %>
+    <%= submit_tag 'Submit' %>
+  <% end %>
 </div> <!-- end page header div -->
 
 <% @tags.each do |tag| %>
