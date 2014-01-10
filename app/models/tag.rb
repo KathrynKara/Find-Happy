@@ -7,6 +7,13 @@ class Tag < ActiveRecord::Base
 
   CATEGORIES = %w[Food Drink Sight Store]
 
+  def self.search_for query
+    Tag.where('title LIKE :query
+      OR category LIKE :query 
+      OR comment LIKE :query', 
+      query: "%#{query}%")
+  end
+
   # geocoded_by :title
   # after_validation :geocode, :if => :address_changed?
 

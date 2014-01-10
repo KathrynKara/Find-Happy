@@ -1,8 +1,6 @@
 class SearchController < ApplicationController
   def index
     query = params[:q]
-    @tags = Tag.where('title LIKE :query
-      OR category LIKE :query OR comment LIKE :query', 
-      query: "%#{query}%")
+    @tags = Tag.search_for query
   end
 end
