@@ -13,7 +13,8 @@ class TagsController < ApplicationController
   end
 
   def create
-    @tag = current_user.tags.create safe_tag
+    @tag = Tag.new safe_tag
+    @tag.user = current_user
     if @tag.save
       redirect_to @tag, notice: "Happy Place successfully added"
     else

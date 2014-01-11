@@ -8,9 +8,9 @@ class Tag < ActiveRecord::Base
   CATEGORIES = %w[Food Drink Sight Store]
 
   def self.search_for query
-    where('title ILIKE :query
-      OR category ILIKE :query 
-      OR comment ILIKE :query', 
+    where('title LIKE :query
+      OR category LIKE :query 
+      OR comment LIKE :query', 
       query: "%#{query}%")
   end
 

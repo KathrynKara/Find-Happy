@@ -10,3 +10,7 @@
 <% end %>
 
 <%= debug @tags %>
+
+<div>
+<%= image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=16&markers=#{@tag.latitude}%2C#{@tag.longitude}" %>
+</div>

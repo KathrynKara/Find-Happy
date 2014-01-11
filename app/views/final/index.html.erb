@@ -7,7 +7,7 @@
   <% end %>
 </div> <!-- end page header div -->
 <div class="row">
-  <div class="all">
+  <div class="final-jumbotron">
     <div class="row">
       <div class="col-md-4">
         <% @tags.each do |tag| %>
@@ -15,12 +15,12 @@
           <p><%= tag.category %></p>
           <p><%= tag.comment %></p>
         <% end %>
-      </div>
+      </div> <!-- end div col-md-4 -->
       <div class="col-md-8">
-
-      </div>
-    </div>
-  </div>
-</div>
+        <%= image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&markers=#{gmapmarkers @tags}" %>
+      </div> <!-- end div col-md-8 -->
+    </div> <!-- end div row -->
+  </div><!-- end div final jumbotron -->
+</div> <!-- end div row -->
 
 
