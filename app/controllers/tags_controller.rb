@@ -47,7 +47,7 @@ class TagsController < ApplicationController
   end
 
   def safe_tag
-    params.require(:tag).permit(:title, :category, :comment)
+    params.require(:tag).permit(:title, :category, :comment, :address)
   end
 
 end

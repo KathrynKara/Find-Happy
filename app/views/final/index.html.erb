@@ -6,10 +6,21 @@
     <%= submit_tag 'Submit' %>
   <% end %>
 </div> <!-- end page header div -->
+<div class="row">
+  <div class="all">
+    <div class="row">
+      <div class="col-md-4">
+        <% @tags.each do |tag| %>
+          <h3><%= tag.title %></h3>
+          <p><%= tag.category %></p>
+          <p><%= tag.comment %></p>
+        <% end %>
+      </div>
+      <div class="col-md-8">
 
-<% @tags.each do |tag| %>
-<h3><%= tag.title %></h3>
-<p><%= tag.category %></p>
-<p><%= tag.comment %></p>
-<% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
 
