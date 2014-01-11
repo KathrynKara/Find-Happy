@@ -14,10 +14,11 @@
           <h3><%= tag.title %></h3>
           <p><%= tag.category %></p>
           <p><%= tag.comment %></p>
+          <hr>
         <% end %>
       </div> <!-- end div col-md-4 -->
       <div class="col-md-8">
-        <%= image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&markers=#{gmapmarkers @tags}" %>
+        <%= image_tag "http://maps.google.com/maps/api/staticmap?size=850x600&sensor=false&markers=#{gmapmarkers @tags}" %>
       </div> <!-- end div col-md-8 -->
     </div> <!-- end div row -->
   </div><!-- end div final jumbotron -->
