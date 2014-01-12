@@ -10,8 +10,8 @@
   |  
 <%= link_to "Delete", tag_path(@tag), :confirm => "Are you sure you want to delete this item?", method: :delete %>
 
-<%= debug @tag %>
-
 <div>
 <%= image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=16&markers=#{@tag.latitude}%2C#{@tag.longitude}" %>
 </div>
+
+<%= debug @tag %>

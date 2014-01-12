@@ -81,7 +81,8 @@ dfn {
 }
 
 hr {
-  height: 0;
+  border-color: black;
+  height: 1px;
   -moz-box-sizing: content-box;
        box-sizing: content-box;
 }

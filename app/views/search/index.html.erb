@@ -1,16 +1,22 @@
 <h1>Results containing "<%= params[:q] %>":</h1>
 
-<% @tags.each do |tag| %>
-  <h3><%= tag.title %></h3>
-  <h5><%= tag.category %></h5>
-  <h5><%= tag.comment %></h5>
-  <h5><%= tag.address %></h5>
-  <h5><%= tag.latitude %></h5>
-  <h5><%= tag.latitude %></h5>
-<% end %>
+<div class="row">
+  <div class="search-jumbotron">
+    <div class="row">
+      <div class="col-md-4">
+        <% @tags.each do |tag| %>
+          <h3><%= tag.title %></h3>
+          <p><%= tag.address %></p>
+          <p><%= tag.category %></p>
+          <p><%= tag.comment %></p>
+          <hr>
+        <% end %>
+      </div> <!-- end div col-md-4 -->
+      <div class="col-md-8">
+        <%= image_tag "http://maps.google.com/maps/api/staticmap?size=850x600&sensor=false&markers=#{gmapmarkers @tags}" %>
+      </div> <!-- end div col-md-8 -->
+    </div> <!-- end div row -->
+  </div><!-- end div final jumbotron -->
+</div> <!-- end div row -->
 
 <%= debug @tags %>
-
-<div>
-<%= image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=16&markers=#{@tag.latitude}%2C#{@tag.longitude}" %>
-</div>
