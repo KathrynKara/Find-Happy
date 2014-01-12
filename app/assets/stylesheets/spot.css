@@ -51,6 +51,7 @@ body {
 
 a {
   background: transparent;
+  text-decoration: none;
 }
 
 a:focus {
@@ -323,7 +324,7 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: blue;
   text-decoration: none;
 }
 

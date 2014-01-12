@@ -3,8 +3,18 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .jumbotron {
-  background-image: url("iceland.jpg");
+  background-image: url("brushed.png");
 }
 
+.thumbnail {
+  background-image: url("brushed.png");
+  .img-responsive {
+    height: 200px;
+  }
+
+  .caption {
+    height: 150px;
+  }
+}
 
 
