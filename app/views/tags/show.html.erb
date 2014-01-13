@@ -10,10 +10,11 @@
           <p><%= @tag.address %></p>
           <p><%= @tag.category %></p>
           <p><%= @tag.comment %></p>
-
-        <%= link_to "Edit", edit_tag_path(@tag) %>
-          |  
-        <%= link_to "Delete", tag_path(@tag), :confirm => "Are you sure you want to delete this item?", method: :delete %>
+          <% if current_user.id == @tag.user_id  %>
+          <%= link_to "Edit", edit_tag_path(@tag) %>
+            |  
+          <%= link_to "Delete", tag_path(@tag), :confirm => "Are you sure you want to delete this item?", method: :delete %>
+          <% end %>
       </div> <!-- end div col-md-4 -->
       <div class="col-md-8">
         <%= image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=16&markers=#{@tag.latitude}%2C#{@tag.longitude}" %>
