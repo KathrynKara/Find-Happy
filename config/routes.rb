@@ -8,6 +8,7 @@ FinalApp::Application.routes.draw do
   root "about#index"
   get "final/index"
   get "search", to: "search#index"
+
   
   
   # The priority is based upon order of creation: first created -> highest priority.

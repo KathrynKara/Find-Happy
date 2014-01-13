@@ -3,7 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .tag-jumbotron {
-  background: #FFF873;
+  background: #d0d0d0;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+
+.show-jumbotron {
+  background: #ffffff;
   padding-left: 20px;
   border-radius: 30px;
 }
@@ -14,8 +20,6 @@ a {
 }
 
 body {
-  // background: #5DC8CD;
-  // background: #5fd3b3;
   background: #5ccccc;
 
 }

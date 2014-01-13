@@ -5,13 +5,13 @@ class Tag < ActiveRecord::Base
 
   validates :title, :category, :comment, :address, presence: true
 
-  CATEGORIES = %w[Food Drink Sight Store]
+  CATEGORIES = %w[Food Drink Sight Store Service Educational Arts/Entertainment]
 
   def self.search_for query
-    where('title ILIKE :query
-      OR category ILIKE :query
-      OR address ILIKE :query 
-      OR comment ILIKE :query', 
+    where('title LIKE :query
+      OR category LIKE :query
+      OR address LIKE :query 
+      OR comment LIKE :query', 
       query: "%#{query}%")
   end
 

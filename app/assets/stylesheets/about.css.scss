@@ -3,11 +3,13 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .jumbotron {
-  background-image: url("brushed.png");
+  // background-image: url("brushed.png");
+  background: #48d3ff;
 }
 
 .thumbnail {
-  background-image: url("brushed.png");
+  background: #d0d0d0;
+
   .img-responsive {
     height: 200px;
   }
